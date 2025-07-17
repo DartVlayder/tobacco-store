@@ -15,6 +15,7 @@ class Categories(models.Model):
 
 
 class Products(models.Model):
+    objects = None
     name = models.CharField(max_length=150, unique=True, verbose_name='Название')
     slug = models.SlugField(max_length=200, unique=True, blank=True, null=True, verbose_name='URL')
     description = models.TextField(blank=True, null=True, verbose_name='Описание')
