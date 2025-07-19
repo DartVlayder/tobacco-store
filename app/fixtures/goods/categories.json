@@ -3,7 +3,7 @@
     "model": "goods.categories",
     "pk": 4,
     "fields": {
-      "name": "Всё для интерьера",
+      "name": "Все товары",
       "slug": "all"
     }
   },

@@ -22,7 +22,7 @@
       "description": "Компактный набор мебели: стол и два удобных стула.",
       "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
       "price": "93.00",
-      "discount": "0.00",
+      "discount": "5.00",
       "quantity": 10,
       "category": 7
     }
@@ -105,7 +105,7 @@
       "slug": "divan-obyknovennyj",
       "description": "Стандартный диван для повседневного использования. Подходит для любой комнаты.",
       "image": "goods_images/sofa.jpg",
-      "price": "0.00",
+      "price": "110.00",
       "discount": "0.00",
       "quantity": 190,
       "category": 11
@@ -120,7 +120,7 @@
       "description": "Удобный стул для работы за компьютером. Идеален для офиса или дома.",
       "image": "goods_images/office_chair.jpg",
       "price": "30.00",
-      "discount": "0.00",
+      "discount": "20.00",
       "quantity": 10,
       "category": 10
     }
@@ -148,7 +148,7 @@
       "description": "Декоративный стилизованный цветок — отлично подходит для украшения интерьера.",
       "image": "goods_images/flower.jpg",
       "price": "15.00",
-      "discount": "0.00",
+      "discount": "10.00",
       "quantity": 10,
       "category": 12
     }
