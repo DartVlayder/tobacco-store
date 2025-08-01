@@ -3,7 +3,8 @@ from django.db import models
 from goods.models import Products
 from users.models import User
 
-class CartQuerySet(models.QuerySet):
+
+class CartQueryset(models.QuerySet):
 
     def total_price(self):
         return sum(cart.products_price() for cart in self)
@@ -25,10 +26,10 @@ class Cart(models.Model):
         verbose_name = "Корзина"
         verbose_name_plural = "Корзина"
 
-    objects = CartQuerySet.as_manager()
+    objects = CartQueryset().as_manager()
 
-def product_price(self):
-    return round(self.product.sell_price()*self.quantity, 2)
+    def products_price(self):
+        return round(self.product.sell_price() * self.quantity, 2)
 
     def __str__(self):
         return f'Корзина {self.user.username} | Товар {self.product.name} | Количество {self.quantity}'
