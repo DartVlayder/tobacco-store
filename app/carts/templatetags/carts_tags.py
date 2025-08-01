@@ -1,5 +1,3 @@
-from django.urls import path
-from carts import views
 from django import template
 from carts.models import Cart
 from carts.utils import get_user_carts
